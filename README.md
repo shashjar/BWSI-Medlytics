@@ -1,7 +1,7 @@
 # BWSI-Medlytics
 This is a new repository to be used for the BWSI Medlytics Program. This repository was used during the summer of 2018 to store data relating to atrial fibrillation (heart arryhythmias in general) of patients from multiple hospitals. Data acquired from PhysioNet (https://physionet.org/). This data set is one of many on PhysioNet. As can be seen in the repo, this dataset involved the ECGs of 8,528 patients that were classified into four different categories: no heart arrhythmia (0), atrial fibrillation (1), other heart arrhythmia(s) (2), and ECG data too noisy to analyze (3). 
 
-An in-depth explanation of atrial fibrillation (or afib) 
+An in-depth explanation of atrial fibrillation (or afib) can be found
 
 For the sake of this project, Class 3 has been removed. The main reason for this is that there is a significant accuracy gap between ECG machines and the Neulog sensors used for live demos of this algorithm. This is explained further below.
 
