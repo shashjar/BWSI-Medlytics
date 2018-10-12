@@ -3,7 +3,7 @@ This is a new repository to be used for the BWSI Medlytics Program. This reposit
 
 An in-depth explanation of atrial fibrillation (or afib) can be found at https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624. The important takeaway is that atrial fibrillation and other heart arryhthmias are not only potentially life-threatening but are also difficult to detect. While the afflictions can increase risks for stroke, heart disease, and more, they can also be occasional, meaning the arrythmia is not always present. Despite it being just as dangerous, the arrythmia is much more difficult to diagnose, which is why it is important to have realtime ECG data streaming in and an algorithm to efficiently analyze it.
 
-For the sake of this project, Class 3 from the has been removed. The main reason for this is that there is a significant accuracy gap between ECG machines and the Neulog sensors used for live demos of this algorithm. This is explained further below.
+For the sake of this project, Class 3 from the datahas been removed. The main reason for this is that there is a significant accuracy gap between ECG machines and the Neulog sensors used for live demos of this algorithm. This is explained further below.
 
 Training data has been separated from validation (and testing) data within this repo. Quantities of each set of data can be viewed here. Each identification number on each file represents one patient. Therefore, there is one .mat and one .hea file for each patient in the data collection. The .hea file contains the data in a format similar to .csv, which will be the necessary input for the algorithm.
 
